@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "dvd": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "libro": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "electrodomestico": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "usuarios": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "ordenes": {
+    "dataSource": "mydb",
+    "public": true
+  }
+}

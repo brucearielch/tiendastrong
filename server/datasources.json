@@ -1,0 +1,12 @@
+{
+  "mydb": {
+    "host": "52.179.1.96",
+    "port": 27017,
+    "url": "",
+    "database": "tienda",
+    "password": 1038,
+    "name": "mydb",
+    "user": "super",
+    "connector": "mongodb"
+  }
+}

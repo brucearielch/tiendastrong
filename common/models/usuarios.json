@@ -1,0 +1,38 @@
+{
+  "name": "usuarios",
+  "plural": "usuarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cedula": {
+      "type": "number",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellido": {
+      "type": "string",
+      "required": true
+    },
+    "nombreusuario": {
+      "type": "string",
+      "required": true
+    },
+    "contrasena": {
+      "type": "string",
+      "required": true
+    },
+    "residencia": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

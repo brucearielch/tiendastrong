@@ -1,0 +1,40 @@
+{
+  "name": "electrodomestico",
+  "plural": "electrodomestico",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "number",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string",
+      "required": true,
+      "default": "electrodomestico"
+    },
+    "color": {
+      "type": "string"
+    },
+    "voltaje": {
+      "type": "string"
+    },
+    "marca": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

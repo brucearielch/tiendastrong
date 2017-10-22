@@ -1,0 +1,23 @@
+{
+  "name": "ordenes",
+  "plural": "ordenes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cedula": {
+      "type": "number",
+      "required": true
+    },
+    "listaArticulos": {
+      "type": "array",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

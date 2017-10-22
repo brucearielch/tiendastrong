@@ -1,0 +1,40 @@
+{
+  "name": "libro",
+  "plural": "libro",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "number",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string",
+      "required": true,
+      "default": "libro"
+    },
+    "editoral": {
+      "type": "string"
+    },
+    "numeropaginas": {
+      "type": "number"
+    },
+    "autor": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
